@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fmcompanion.career-plan.v1",
+  "title": "FM Companion Career Plan",
+  "type": "object",
+  "required": ["schema_version", "career_route", "project_completion", "manager_readiness", "stay_or_leave", "current_job_milestones", "next_move_profile", "club_finder_brief", "long_term_path", "confidence"],
+  "properties": {
+    "schema_version": {"const": "fmcompanion.career-plan.v1"},
+    "career_route": {"type": "string"},
+    "project_completion": {"type": "object"},
+    "manager_readiness": {"type": "object"},
+    "stay_or_leave": {"type": "object"},
+    "current_job_milestones": {"type": "array"},
+    "next_move_profile": {"type": "object"},
+    "club_finder_brief": {"type": "object"},
+    "long_term_path": {"type": "object"},
+    "ranked_club_candidates": {"type": "array"},
+    "confidence": {"enum": ["low", "medium", "high"]},
+    "confidence_notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}
