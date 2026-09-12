@@ -1,0 +1,22 @@
+{
+  "manager": {"name": "Example Manager"},
+  "current_context": {
+    "club_name": "Example Athletic",
+    "club_level": "top_flight_mid",
+    "tenure_seasons": 3,
+    "manager_reputation": 5400,
+    "coaching_badge_level": "continental_pro",
+    "achievements": ["promotion", "continental_qualification"],
+    "current_project_goal": "Qualify for Europe twice",
+    "current_project_goal_achieved": true,
+    "tactical_identity_established": true,
+    "squad_outlook": {"core_age_balance": "healthy", "youth_pipeline": "strong"}
+  },
+  "preferences": {
+    "route": "realistic_climber",
+    "ambition": "balanced",
+    "preferred_regions": ["England", "Germany"],
+    "club_identities": ["youth development", "high pressing"],
+    "long_term_destination_level": "elite"
+  }
+}
